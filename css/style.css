@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body{
+    overflow: hidden;
+    margin: 0;
+    background-color: #1d09a1;
+}
+
+.fundo{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -10;
+}
+
+.telacheia{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: left;
+}
+
+.topo{
+    width: 100%;
+    height: 150px;
+}
+
+.central{
+    width: 700px;
+    height: 170px;
+    text-align: left;
+    background-color: #9b9b9b;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.central .txt-central{
+    margin: 20px;
+}
+
+.central .txt-central h1{
+    padding-bottom: 30px;
+}
